@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btn_web_view_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Web View Activity"/>
+    <Button
+        android:id="@+id/btn_json_volley_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Json volley Activity"/>
+    <Button
+        android:id="@+id/btn_sensor_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sensor Activity"/>
+    <Button
+        android:id="@+id/btn_recycler_view_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycler View"/>
+    <Button
+        android:id="@+id/btn_canvas_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Canvas"/>
+
+</LinearLayout>
